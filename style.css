@@ -39,6 +39,21 @@ input,select{
     font-size: 20px;
 }
 
+input:invalid{
+    border: red 2px solid;
+    padding: 5px;
+    font-size: 20px;
+    color: red;
+}
+
+input:valid:focus{
+    border:green 2px solid;
+    padding: 5px;
+    font-size: 20px;
+    background-color: rgba(136,231,136,0.1);
+    color: black;
+}
+
 button,.button{
     font-size: 25px;
     margin: 5px;
